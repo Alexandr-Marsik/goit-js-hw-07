@@ -2,5 +2,5 @@ const inputElement = document.querySelector('#name-input');
 const outputElement = document.querySelector('#name-output');
 inputElement.addEventListener('input', () => {
   const clean = inputElement.value.trim();
-  outputElement.textContent = clean === '' ? 'Anonymus' : clean;
+  outputElement.textContent = clean === '' ? 'Anonymous' : clean;
 });
